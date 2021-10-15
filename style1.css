@@ -1,0 +1,185 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans",Sans-Serif;
+    background-color:     #FFFFFF;
+    overflow: scroll;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: Comic Sans MS;
+    color: #00417F;
+    font-variant: small-caps;
+    width: 100%;
+}
+nav .logo:hover{
+    font-size: 50px;
+    color: red;
+    box-shadow: black;
+}
+.menu{
+    font-size: 35px;
+    float: right;
+    font-family: "Courier";
+    
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: float;
+    line-height: 80px;
+    position: sticky;
+    position: webkit-sticky;
+    background: #FFFFFF;
+    z-index: 1px;
+    border-bottom: 1px solid #004099;
+}
+hr{
+    width: 350%;
+    height: 1%;
+    color: #000000;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #BB0005;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    float: left;
+}
+.kolom{
+    margin: 50px;
+    margin-bottom: 50px;
+    box-shadow: -7px 9px 45px -13px #000000;
+    -webkit-box-shadow: -7px 9px 45px -13px #000000;
+    -moz-box-shadow: -7px 9px 45px -13px #000000;
+    
+}
+.kolom1{
+    height: 450px;
+    -webkit-box-shadow: -7px 9px 45px -13px #000000;
+    -moz-box-shadow: -7px 9px 45px -13px #000000;
+    box-shadow: -7px 9px 45px -13px #000000;
+}
+
+
+.kolom.deskripsi{
+    font-size: 50px
+    font-weight: bold;
+    font-family: "lorem ipsum";
+    color: #000000;
+    text-transform: capitalize;
+    
+}
+h1{
+    font-family: "lorem ipsum";
+    font-weight: 800px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+h3{
+    font-family: "lorem ipsum";
+    font-weight: 800px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+p{
+    font-family: "lorem ipsum";
+    font-weight: 800px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+a.tbl-pink{
+    background: #A20057;
+    border-radius: 20%;
+    margin-bottom: 5px;
+    padding-block: 5px;
+    padding-block-end: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: none;
+}
+div #sketsa .gambar{
+    display: inline;
+}
+#foto img{
+    width: 500px;
+    border-radius: 30%;
+    position: center;
+}
+
+#harga{
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    text-transform: capitalize;
+    color: #FF001B;
+}
+#harga:hover{
+    font-size: 60px;
+    color: #0033FF;
+    border-block-color: #007E94;
+    font-family: Courier;
+    
+    
+}
+.garis 1 #garis{
+    height: 360%;
+    width: 1px;
+    color: #000000;
+}
+div #contact{
+    background-color: #000000;
+    size: 35px;
+}
+div #contact h6{
+    color: #FFFFFF;
+    position: center;
+    
+}
+div #harga{
+    -webkit-box-shadow: -7px 9px 45px -13px #000000;
+    -moz-box-shadow: 17px 9px 45px -13px #000000;
+    box-shadow: -7px 9px 45px -13px #000000;
+    background-color: #FFFFFF;
+    
+}
